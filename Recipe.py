@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 # Load API Key from e.env file
-env_path = "/Users/iiacymm/Desktop/AI HW/e.env"
+env_path = "/Users/e.env"
 load_dotenv(env_path)
 api_key = os.getenv("FIREWORKS_API_KEY")
 
